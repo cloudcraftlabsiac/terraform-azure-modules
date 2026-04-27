@@ -3,7 +3,7 @@
 Reusable and production-ready Terraform modules for Azure infrastructure.
 
 ## 📦 Modules
-- Key Vault
+- Key Vault (RBAC + Private Endpoint)
 - Storage Account
 - Virtual Network
 
@@ -12,3 +12,10 @@ Designed for real-world Azure deployments with best practices.
 
 ## 🚀 Usage
 Each module contains its own README with deployment steps.
+
+## Usage
+Refer to examples folder.
+
+## Structure
+- modules/ → reusable modules
+- examples/ → usage samples
