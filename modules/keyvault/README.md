@@ -17,14 +17,3 @@ module "keyvault" {
   resource_group_name = "rg-demo"
   tenant_id           = "xxxxx"
 }
-
-
----
-
-# 📁 EXAMPLE (VERY IMPORTANT)
-
-## 🔹 `examples/keyvault-private-endpoint/providers.tf`
-```hcl
-provider "azurerm" {
-  features {}
-}
